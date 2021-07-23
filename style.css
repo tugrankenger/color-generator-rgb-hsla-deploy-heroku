@@ -176,7 +176,6 @@ nav{
 }
 
 nav a{
-    text-transform: capitalize;
     font-weight: 700;
     font-size: 1rem;
     letter-spacing: var(--spacing);
