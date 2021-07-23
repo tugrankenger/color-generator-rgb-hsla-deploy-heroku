@@ -70,6 +70,15 @@ body{
     line-height: 1.5;
     font-size: 1rem;
 }
+.hsla{
+    background-color: hsla(176, 13%, 78%,0.4);
+}
+.hex{
+    background-color: #4F8AF1;
+}
+.simple{
+    background-color: rgb(219, 216, 45);
+}
 ul{
     list-style-type: none;
 }
