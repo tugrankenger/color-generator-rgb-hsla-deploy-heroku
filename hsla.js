@@ -1,5 +1,6 @@
 const btn = document.getElementById('btn');
 const color = document.querySelector('.color');
+const name_end = document.querySelector('.name-end');
 
 const hueArray = [];
 const saturationArray= [];
@@ -29,6 +30,7 @@ btn.addEventListener('click', ()=>{
 
     color.textContent=colorRegEx;
     document.body.style.backgroundColor= colorRegEx;
+    name_end.style.color= colorRegEx;
 });
 
 getRandomHue=()=>{
